@@ -24,7 +24,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/soccer-updates-application",
+            "baseHref": "https://Lexios57.github.io/soccer-updates-application/",
+            "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [

@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.center-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinner {
+    position: relative;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}

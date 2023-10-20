@@ -1,0 +1,13 @@
+
+<div class="row">
+    <mat-grid-list cols="7" rowHeight="3:1" [class]="colorClass">
+        <mat-grid-tile><img [src]="score.teams.home.logo" /></mat-grid-tile>
+        <mat-grid-tile>{{score.teams.home.name}}</mat-grid-tile>
+        <mat-grid-tile>{{score.goals.home}}</mat-grid-tile>
+        <mat-grid-tile><strong>-</strong></mat-grid-tile>
+        <mat-grid-tile>{{score.goals.away}}</mat-grid-tile>
+        <mat-grid-tile>{{score.teams.away.name}}</mat-grid-tile>
+        <mat-grid-tile><img [src]="score.teams.away.logo" /></mat-grid-tile>
+    </mat-grid-list>
+</div>
+

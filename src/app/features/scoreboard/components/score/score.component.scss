@@ -1,0 +1,24 @@
+.row {
+    position: relative;
+    font-size: 1.2em;
+}
+.selected-team {
+    font-size: 1.5em;
+}
+.win-match {
+    background-color: rgba($color: green, $alpha: 0.1);
+}
+.lost-match {
+    background-color: rgba($color: red, $alpha: 0.1);
+}
+.egality {
+    background-color: rgba($color: black, $alpha: 0.1);
+}
+img {
+    width: 30%;
+}
+mat-grid-list {
+    margin-top:5px;
+    background-color: rgba($color: #000000, $alpha: 0.1);
+    border-radius: 10px;
+}

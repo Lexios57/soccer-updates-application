@@ -1,0 +1,7 @@
+<div class="menu-header">
+    <mat-button-toggle-group name="countrySelector">
+        <ng-container *ngFor="let country of countries">
+            <mat-button-toggle id="{{country.name}}Select" (click)="changeCountry(country)" value="{{country.name}}">{{country.name}}</mat-button-toggle>
+        </ng-container>
+    </mat-button-toggle-group>
+</div>

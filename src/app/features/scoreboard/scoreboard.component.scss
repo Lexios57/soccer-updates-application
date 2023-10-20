@@ -1,0 +1,19 @@
+.scoreboard {
+    width: 80%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.return-button {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.spinner {
+    position: relative;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
